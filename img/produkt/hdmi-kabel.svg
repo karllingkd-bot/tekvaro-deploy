@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="HDMI-kabel 2 meter">
+  <path d="M104 168 C 104 62, 296 62, 296 168" fill="none" stroke="#2f3a4f" stroke-width="14" stroke-linecap="round"/>
+  <g transform="translate(104,226) rotate(-90)">
+    <rect x="0" y="-19" width="60" height="38" rx="8" fill="#2f3a4f"/>
+    <path d="M-28 -14 H0 V14 H-28 L-36 7 V-7 Z" fill="#0b0f16"/>
+    <rect x="-26" y="-5" width="17" height="10" rx="2" fill="#8b94a5"/>
+  </g>
+  <g transform="translate(296,226) rotate(-90)">
+    <rect x="0" y="-19" width="60" height="38" rx="8" fill="#2f3a4f"/>
+    <path d="M-28 -14 H0 V14 H-28 L-36 7 V-7 Z" fill="#0b0f16"/>
+    <rect x="-26" y="-5" width="17" height="10" rx="2" fill="#8b94a5"/>
+  </g>
+  <rect x="172" y="140" width="56" height="26" rx="8" fill="#0b0f16"/>
+  <text x="200" y="158" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="13" font-weight="700" fill="#ffffff">4K</text>
+</svg>

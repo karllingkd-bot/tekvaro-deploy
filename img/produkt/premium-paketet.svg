@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860" role="img" aria-label="Premium-paketet: projektor plus tre gåvor">
+  <rect width="1200" height="860" rx="28" fill="#0d1219"/>
+  <text x="60" y="76" font-family="ui-monospace,Menlo,monospace" font-size="14" letter-spacing="3" fill="#141a26">PREMIUM-PAKETET</text>
+  <text x="60" y="128" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#ffffff">Detta ligger i kartongen</text>
+  <text x="60" y="162" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="17" fill="#8b94a5">Toppmodellen passerar båda trösklarna direkt — alla tre gåvorna följer med utan tillägg.</text>
+  <rect x="60" y="250" width="500" height="526" rx="16" fill="#161d29"/>
+  <svg x="80" y="272" width="460" height="345" viewBox="0 0 400 300"><g>
+    <path d="M105 168 L18 120 L18 216 Z" fill="#141a26" opacity=".16"/>
+    <rect x="86" y="104" width="228" height="14" rx="7" fill="#2f3a4f"/>
+    <rect x="80" y="114" width="240" height="112" rx="20" fill="#232c3d"/>
+    <rect x="96" y="126" width="208" height="4" rx="2" fill="#ffffff" opacity=".08"/>
+    <circle cx="148" cy="170" r="44" fill="#0b0f16"/>
+    <circle cx="148" cy="170" r="32" fill="#33425c"/>
+    <circle cx="148" cy="170" r="32" fill="none" stroke="#8fa6c6" stroke-width="2" opacity=".5"/>
+    <path d="M132 152 a24 24 0 0 1 26 -5" stroke="#dce6f5" stroke-width="4" fill="none" stroke-linecap="round" opacity=".7"/>
+    <g fill="#0b0f16" opacity=".55">
+      <rect x="228" y="140" width="62" height="6" rx="3"/>
+      <rect x="228" y="154" width="62" height="6" rx="3"/>
+      <rect x="228" y="168" width="62" height="6" rx="3"/>
+      <rect x="228" y="182" width="62" height="6" rx="3"/>
+    </g>
+    <circle cx="206" cy="146" r="5" fill="#141a26"/>
+    <rect x="100" y="226" width="30" height="10" rx="4" fill="#0b0f16"/>
+    <rect x="270" y="226" width="30" height="10" rx="4" fill="#0b0f16"/>
+  </g>
+</svg>
+  <text x="92" y="668" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#ffffff">Tekvaro Premium</text>
+  <text x="92" y="698" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" fill="#8b94a5">1080p · 580 ANSI-lumen · autofokus · upp till 150 tum</text>
+  <text x="92" y="744" font-family="ui-monospace,Menlo,monospace" font-size="30" font-weight="700" fill="#ffffff">2 490 kr</text>
+  <rect x="316" y="718" width="132" height="30" rx="15" fill="#141a26"/>
+  <text x="382" y="739" text-anchor="middle" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#0d1219">DU BETALAR</text>
+
+  <g>
+    <rect x="600" y="250" width="540" height="162" rx="16" fill="#161d29"/>
+    <svg x="606" y="256" width="200" height="150" viewBox="0 0 400 300"><rect x="44" y="62" width="312" height="176" rx="6" fill="#232c3d"/>
+  <rect x="56" y="74" width="288" height="152" rx="2" fill="#eef2f8"/>
+  <g stroke="#8b94a5" stroke-width="1.5" opacity=".45">
+    <line x1="200" y1="74" x2="200" y2="226"/>
+    <line x1="56" y1="150" x2="344" y2="150"/>
+  </g>
+  <g fill="#232c3d">
+    <circle cx="44" cy="62" r="7"/><circle cx="356" cy="62" r="7"/>
+    <circle cx="44" cy="238" r="7"/><circle cx="356" cy="238" r="7"/>
+  </g>
+  <line x1="66" y1="216" x2="334" y2="84" stroke="#141a26" stroke-width="2" stroke-dasharray="7 6"/>
+  <rect x="176" y="134" width="52" height="32" rx="6" fill="#141a26"/>
+  <text x="202" y="156" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="17" font-weight="700" fill="#ffffff">120"</text>
+</svg>
+    <rect x="812" y="274" width="88" height="26" rx="13" fill="#4c5666"/>
+    <text x="856" y="292" text-anchor="middle" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#0d1219">GRATIS</text>
+    <text x="812" y="332" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Projektorduk 120 tum</text>
+    <text x="812" y="356" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="14" fill="#8b94a5">Vikbar, kardborrekant, 16:9</text>
+    <text x="812" y="386" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#8b94a5">Värde <tspan fill="#ffffff" font-weight="700">399 kr</tspan></text>
+  </g>
+  <g>
+    <rect x="600" y="432" width="540" height="162" rx="16" fill="#161d29"/>
+    <svg x="606" y="438" width="200" height="150" viewBox="0 0 400 300"><rect x="158" y="40" width="84" height="12" rx="5" fill="#2f3a4f"/>
+  <rect x="186" y="52" width="28" height="10" rx="3" fill="#232c3d"/>
+  <rect x="192" y="62" width="16" height="128" fill="#232c3d"/>
+  <rect x="188" y="118" width="24" height="8" rx="4" fill="#2f3a4f"/>
+  <circle cx="216" cy="122" r="9" fill="#141a26"/>
+  <g stroke="#232c3d" stroke-width="11" stroke-linecap="round" fill="none">
+    <line x1="200" y1="190" x2="118" y2="252"/>
+    <line x1="200" y1="190" x2="282" y2="252"/>
+    <line x1="200" y1="190" x2="200" y2="248"/>
+  </g>
+  <g fill="#141a26">
+    <ellipse cx="116" cy="256" rx="14" ry="6"/>
+    <ellipse cx="284" cy="256" rx="14" ry="6"/>
+    <ellipse cx="200" cy="252" rx="14" ry="6"/>
+  </g>
+</svg>
+    <rect x="812" y="456" width="88" height="26" rx="13" fill="#4c5666"/>
+    <text x="856" y="474" text-anchor="middle" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#0d1219">GRATIS</text>
+    <text x="812" y="514" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Golvstativ</text>
+    <text x="812" y="538" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="14" fill="#8b94a5">Justerbart 60–160 cm, 1/4-tums gänga</text>
+    <text x="812" y="568" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#8b94a5">Värde <tspan fill="#ffffff" font-weight="700">499 kr</tspan></text>
+  </g>
+  <g>
+    <rect x="600" y="614" width="540" height="162" rx="16" fill="#161d29"/>
+    <svg x="606" y="620" width="200" height="150" viewBox="0 0 400 300"><path d="M104 168 C 104 62, 296 62, 296 168" fill="none" stroke="#2f3a4f" stroke-width="14" stroke-linecap="round"/>
+  <g transform="translate(104,226) rotate(-90)">
+    <rect x="0" y="-19" width="60" height="38" rx="8" fill="#2f3a4f"/>
+    <path d="M-28 -14 H0 V14 H-28 L-36 7 V-7 Z" fill="#0b0f16"/>
+    <rect x="-26" y="-5" width="17" height="10" rx="2" fill="#8b94a5"/>
+  </g>
+  <g transform="translate(296,226) rotate(-90)">
+    <rect x="0" y="-19" width="60" height="38" rx="8" fill="#2f3a4f"/>
+    <path d="M-28 -14 H0 V14 H-28 L-36 7 V-7 Z" fill="#0b0f16"/>
+    <rect x="-26" y="-5" width="17" height="10" rx="2" fill="#8b94a5"/>
+  </g>
+  <rect x="172" y="140" width="56" height="26" rx="8" fill="#0b0f16"/>
+  <text x="200" y="158" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="13" font-weight="700" fill="#ffffff">4K</text>
+</svg>
+    <rect x="812" y="638" width="88" height="26" rx="13" fill="#4c5666"/>
+    <text x="856" y="656" text-anchor="middle" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#0d1219">GRATIS</text>
+    <text x="812" y="696" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#ffffff">HDMI-kabel 2 m</text>
+    <text x="812" y="720" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="14" fill="#8b94a5">4K 60 Hz — ingår i alla ordrar</text>
+    <text x="812" y="750" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#8b94a5">Värde <tspan fill="#ffffff" font-weight="700">199 kr</tspan></text>
+  </g>
+  <text x="600" y="814" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="17" fill="#8b94a5">Gåvor till ett värde av <tspan fill="#ffffff" font-weight="700">1 097 kr</tspan> · fri frakt · fri retur 30 dagar</text>
+</svg>

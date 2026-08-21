@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Projektorduk 120 tum, vikbar">
+  <rect x="44" y="62" width="312" height="176" rx="6" fill="#232c3d"/>
+  <rect x="56" y="74" width="288" height="152" rx="2" fill="#eef2f8"/>
+  <g stroke="#8b94a5" stroke-width="1.5" opacity=".45">
+    <line x1="200" y1="74" x2="200" y2="226"/>
+    <line x1="56" y1="150" x2="344" y2="150"/>
+  </g>
+  <g fill="#232c3d">
+    <circle cx="44" cy="62" r="7"/><circle cx="356" cy="62" r="7"/>
+    <circle cx="44" cy="238" r="7"/><circle cx="356" cy="238" r="7"/>
+  </g>
+  <line x1="66" y1="216" x2="334" y2="84" stroke="#141a26" stroke-width="2" stroke-dasharray="7 6"/>
+  <rect x="176" y="134" width="52" height="32" rx="6" fill="#141a26"/>
+  <text x="202" y="156" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="17" font-weight="700" fill="#ffffff">120"</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Golvstativ for projektor">
+  <rect x="158" y="40" width="84" height="12" rx="5" fill="#2f3a4f"/>
+  <rect x="186" y="52" width="28" height="10" rx="3" fill="#232c3d"/>
+  <rect x="192" y="62" width="16" height="128" fill="#232c3d"/>
+  <rect x="188" y="118" width="24" height="8" rx="4" fill="#2f3a4f"/>
+  <circle cx="216" cy="122" r="9" fill="#141a26"/>
+  <g stroke="#232c3d" stroke-width="11" stroke-linecap="round" fill="none">
+    <line x1="200" y1="190" x2="118" y2="252"/>
+    <line x1="200" y1="190" x2="282" y2="252"/>
+    <line x1="200" y1="190" x2="200" y2="248"/>
+  </g>
+  <g fill="#141a26">
+    <ellipse cx="116" cy="256" rx="14" ry="6"/>
+    <ellipse cx="284" cy="256" rx="14" ry="6"/>
+    <ellipse cx="200" cy="252" rx="14" ry="6"/>
+  </g>
+</svg>

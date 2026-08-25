@@ -1,0 +1,16 @@
+# ai.txt — villkor för maskinell insamling, tekvaro.se
+#
+# Innehållet på tekvaro.se (text, bilder, video, produkt- och prisuppgifter,
+# samt företags- och kontaktuppgifter) får INTE användas för:
+#   • träning eller finjustering av språk-, bild- eller multimodala modeller
+#   • generering av sammanfattningar, svar eller produktjämförelser i AI-tjänster
+#   • uppbyggnad av kommersiella pris-, produkt- eller leverantörsdatabaser
+#
+# Undantag: indexering för traditionell sökmotorträff (länk + titel) är tillåten
+# för Googlebot, Bingbot och DuckDuckBot enligt /robots.txt.
+#
+# Ingen licens för text- och datautvinning ges. Detta utgör ett uttryckligt
+# förbehåll enligt artikel 4.3 i EU:s DSM-direktiv (2019/790), vilket innebär
+# att undantaget för text- och datautvinning i kommersiellt syfte inte gäller.
+#
+# Kontakt för licensförfrågningar: se /kontakt

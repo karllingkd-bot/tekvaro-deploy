@@ -1,0 +1,49 @@
+# tekvaro.se — serverspärr mot AI-skrapare.
+#
+# robots.txt är frivillig. Detta är hårdspärren: skraparen får 403 oavsett om
+# den bryr sig om robots.txt eller inte. Båda block är inslagna i IfModule så
+# att filen är ofarlig om Simply saknar modulen (ingen risk för 500 på sajten).
+
+<IfModule mod_setenvif.c>
+  SetEnvIfNoCase User-Agent "GPTBot"                    ai_bot
+  SetEnvIfNoCase User-Agent "OAI-SearchBot"             ai_bot
+  SetEnvIfNoCase User-Agent "ChatGPT-User"              ai_bot
+  SetEnvIfNoCase User-Agent "ClaudeBot"                 ai_bot
+  SetEnvIfNoCase User-Agent "Claude-User"               ai_bot
+  SetEnvIfNoCase User-Agent "Claude-SearchBot"          ai_bot
+  SetEnvIfNoCase User-Agent "anthropic-ai"              ai_bot
+  SetEnvIfNoCase User-Agent "PerplexityBot"             ai_bot
+  SetEnvIfNoCase User-Agent "Perplexity-User"           ai_bot
+  SetEnvIfNoCase User-Agent "meta-external"             ai_bot
+  SetEnvIfNoCase User-Agent "FacebookBot"               ai_bot
+  SetEnvIfNoCase User-Agent "Applebot-Extended"         ai_bot
+  SetEnvIfNoCase User-Agent "Amazonbot"                 ai_bot
+  SetEnvIfNoCase User-Agent "Bytespider"                ai_bot
+  SetEnvIfNoCase User-Agent "CCBot"                     ai_bot
+  SetEnvIfNoCase User-Agent "cohere"                    ai_bot
+  SetEnvIfNoCase User-Agent "Diffbot"                   ai_bot
+  SetEnvIfNoCase User-Agent "ImagesiftBot"              ai_bot
+  SetEnvIfNoCase User-Agent "Omgilibot"                 ai_bot
+  SetEnvIfNoCase User-Agent "PetalBot"                  ai_bot
+  SetEnvIfNoCase User-Agent "YouBot"                    ai_bot
+  SetEnvIfNoCase User-Agent "AI2Bot"                    ai_bot
+  SetEnvIfNoCase User-Agent "MistralAI"                 ai_bot
+  SetEnvIfNoCase User-Agent "SemrushBot-OCOB"           ai_bot
+  SetEnvIfNoCase User-Agent "Timpibot"                  ai_bot
+  # Vanliga skrapverktyg utan egen identitet
+  SetEnvIfNoCase User-Agent "python-requests"           ai_bot
+  SetEnvIfNoCase User-Agent "scrapy"                    ai_bot
+  SetEnvIfNoCase User-Agent "httpx"                     ai_bot
+</IfModule>
+
+<IfModule mod_authz_core.c>
+  <RequireAll>
+    Require all granted
+    Require not env ai_bot
+  </RequireAll>
+</IfModule>
+
+# Signalera dessutom i svarsheadern att innehållet inte får användas till AI.
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noai, noimageai"
+</IfModule>

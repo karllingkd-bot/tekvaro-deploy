@@ -1,3 +1,13 @@
+# Tvinga HTTPS. Certifikatet (Let's Encrypt, tekvaro.se + www.tekvaro.se) finns
+# redan hos Simply — utan denna omdirigering landar besökare på http:// och får
+# webbläsarens "Inte säker"-varning i adressfältet.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
 # tekvaro.se — serverspärr mot AI-skrapare.
 #
 # robots.txt är frivillig. Detta är hårdspärren: skraparen får 403 oavsett om

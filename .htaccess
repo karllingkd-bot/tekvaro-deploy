@@ -57,3 +57,21 @@
 <IfModule mod_headers.c>
   Header set X-Robots-Tag "noai, noimageai"
 </IfModule>
+
+# Cachning av statiska Next-filer.
+#
+# _next/static/chunks/ och _next/static/media/ har innehållshash i filnamnet —
+# ändras innehållet byter filen namn, så de kan cachas hur länge som helst.
+# _next/static/tekvaro/ innehåller manifesten och har ett FAST namn sedan
+# build-id:t låstes (next.config.ts) — samma adress, nytt innehåll vid varje
+# deploy. Den måste därför revalideras varje gång, annars kan en besökare köra
+# ett gammalt manifest efter en uppdatering.
+<IfModule mod_setenvif.c>
+  SetEnvIf Request_URI "^/_next/static/(chunks|media)/"  tek_cache_long
+  SetEnvIf Request_URI "^/_next/static/tekvaro/"         tek_cache_none
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set Cache-Control "public, max-age=31536000, immutable" env=tek_cache_long
+  Header set Cache-Control "no-cache" env=tek_cache_none
+</IfModule>
